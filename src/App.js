@@ -1,11 +1,15 @@
-import logo from "./logo.svg";
 import "./App.css";
+import { Routes, Route } from "react-router-dom";
 import Main from "./components/Main";
+import Projects from "./components/Projects";
 
 function App() {
 	return (
 		<div className="app">
-			<Main />
+			<Routes>
+				<Route path="/" element={<Main />} />
+				<Route path="/projects" element={<Projects />} />
+			</Routes>
 		</div>
 	);
 }
