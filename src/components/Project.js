@@ -3,8 +3,8 @@ import Arrow from "../images/Arrow";
 
 const styles = {
 	projectContainer:
-		"w-full h-[220px] flex items-center border-b border-gray-600 hover:scale-x-105 transition-all",
-	projectDetails: "h-full flex flex-col pl-10 justify-around ",
+		"w-full md:h-[220px] flex flex-col md:flex-row items-center border-b border-gray-600 hover:scale-x-105 transition-all",
+	projectDetails: "md:h-full flex flex-col px-10 justify-around gap-4 py-4",
 	projectTitle: "text-3xl text-pink-600",
 	projectInfo: "text-xl",
 	projectTech: "text-2xl",
@@ -18,7 +18,7 @@ const Project = ({ image, title, info, tech, github }) => {
 				alt="projectImage"
 				width={250}
 				height={250}
-				className="object-cover"
+				className="object-cover py-4"
 			/>
 			<div className={styles.projectDetails}>
 				<a

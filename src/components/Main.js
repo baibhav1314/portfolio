@@ -8,11 +8,12 @@ import { Link } from "react-router-dom";
 
 const styles = {
 	container:
-		" w-full bg-gradient-to-r from-black to-gray-900 flex items-center min-h-screen  ",
-	imageContainer: "w-1/2 h-full flex justify-center items-center",
+		" w-full bg-gradient-to-r from-black to-gray-900 items-center min-h-screen flex-col flex md:flex-row gap",
+	imageContainer: "w-1/2 h-96 md:h-full flex justify-center items-center",
 	imageWrapper:
-		"w-[400px] h-[400px] flex justify-center items-center border-[15px] shadow-xl shadow-pink-600/50 border-pink-600 rounded-[50%] overflow-hidden hover:scale-105 transition-all ",
-	bioContainer: "h-full flex flex-col justify-center w-[40%] gap-5",
+		"md:w-[400px] md:h-[400px] flex justify-center items-center border-[15px] shadow-xl shadow-pink-600/50 border-pink-600 rounded-[50%] overflow-hidden hover:scale-105 transition-all ",
+	bioContainer:
+		"h-full flex flex-col justify-center px-10 md:px-0 md:w-[40%] gap-5 py-10 ",
 	title: "text-pink-600 text-6xl cursor-default font-serif font-medium hover:scale-105 hover:translate-x-4 transition-all",
 	about: "text-white text-3xl cursor-default leading-snug",
 	profileIcon: "h-8 fill-white w-10 mx-4  stroke-2",
