@@ -3,7 +3,7 @@ import Arrow from "../images/Arrow";
 
 const styles = {
 	projectContainer:
-		"w-full h-[220px] flex items-center border-b border-gray-600 hover:scale-105 transition-all",
+		"w-full h-[220px] flex items-center border-b border-gray-600 hover:scale-x-105 transition-all",
 	projectDetails: "h-full flex flex-col pl-10 justify-around ",
 	projectTitle: "text-3xl text-pink-600",
 	projectInfo: "text-xl",
